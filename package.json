@@ -1,0 +1,22 @@
+{
+  "name": "newexpress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \" npm start --prefix ./views/papina\" \" node ./bin/www \" "
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "concurrently": "^5.0.1",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^6.0.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.1",
+    "swig": "^1.4.2"
+  }
+}
